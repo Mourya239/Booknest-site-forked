@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BookNest | Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f3e7e9 0%, #e3eeff 100%);
+      color: #2d3436;
+    }
+    header {
+      background: linear-gradient(to right, #8e44ad, #3498db);
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #fff;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      letter-spacing: 1px;
+    }
+    nav {
+      background-color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      margin: 0 20px;
+      color: #8e44ad;
+      font-weight: 600;
+      font-size: 1.1em;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #3498db;
+    }
+   .hero {
+      text-align: center;
+      padding: 80px 20px 50px;
+    }
+    .hero h1 {
+      font-size: 3.5em;
+      color: #2c3e50;
+    }
+    .hero p {
+      font-size: 1.3em;
+      color: #636e72;
+    }  
+   .books {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 50px 20px;
+    }
+    .book {
+      background: #fff;
+      width: 240px;
+      padding: 20px;
+      border-radius: 18px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .book:hover {
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+    .book img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+    .book h3 {
+      font-size: 1.3em;
+      color: #8e44ad;
+    }
+    .book p {
+      font-size: 0.95em;
+      color: #555;
+    }
+   footer {
+      text-align: center;
+      padding: 20px;
+      background: #ecf0f1;
+      color: #7f8c8d;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+ <header>📚 BookNest</header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="booklist.html">Browse Books</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to BookNest</h1>
+    <p>Your cozy corner for magical stories and wisdom</p>
+  </div>
+
+  <section class="books">
+    <div class="book">
+      <img src="https://picsum.photos/200/300?random=1" alt="Book 1">
+      <h3>The Dream Code</h3>
+      <p>Explore the mysteries of the mind through thrilling fiction.</p>
+    </div>
+    <div class="book">
+      <img src="https://picsum.photos/200/300?random=2" alt="Book 2">
+      <h3>Waves of Time</h3>
+      <p>A captivating journey between eras and destinies.</p>
+    </div>
+    <div class="book">
+      <img src="https://picsum.photos/200/300?random=3" alt="Book 3">
+      <h3>The Lost Verse</h3>
+      <p>Poetry that echoes across dimensions.</p>
+    </div>
+  </section>
+
+  <footer>&copy; 2025 BookNest. Crafted with ❤️ by Team</footer>
+</body>
+</html>
